@@ -28,7 +28,7 @@ public class ApiTests {
                 .post("https://reqres.in/api/users/2")
                 .then()
                 .statusCode(201)
-                .body("token", is("QpwL5tke4Pnpja7X4"));
+                .body("name", is("morpheus"));
     }
 
     @Test
